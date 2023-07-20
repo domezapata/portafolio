@@ -1,0 +1,37 @@
+:root {
+    
+    --background-llamada-mobile: #00161C;
+    --background-ceniza: #545454;
+    --background-azul-claro: #04accc;
+    --background-azul: #0A879F;
+    --background-ceniza-claro: #F7F4F4;
+    --background-celeste: #E2FDFE;
+   
+    --btn-azul: #2A7AE4;
+    
+    --fuente-negro: #313131;
+
+    --background-footer: #333333;
+
+    --raleway:'Raleway', sans-serif;
+    --open-sans:'Open sans', serif;
+}
+
+.header{
+    background-image: url(../img/imagenDome.png) ;
+    background-size: cover;
+    background-repeat : no-repeat;
+    height:100vh;  
+    
+}
+@media screen and (max-width: 1024px) {
+    .header {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
+}
+
+ 
+
+
+

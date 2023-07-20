@@ -1,0 +1,52 @@
+.sobreMi {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    background: var(--background-celeste);
+    font-family: var(--raleway);
+    height: 70vh;
+    align-items: center;
+    text-align: justify;
+    
+}
+.fotoSobremi {
+    position: relative;
+    margin: 10%;
+    width: 50%;
+    height: 50vh;
+    grid-column: 1/5;
+}
+.sobremi__info {
+    grid-column: 5/10;
+    padding: 1em;
+    
+}
+.sobremi__info h3 {
+    font-size: 2em;
+    font-weight: bolder;
+}
+.descripcion__sobre--mi {
+    font-size: 1.2em;
+}
+@media screen and (max-width: 425px) {
+    /*Sección sobre mi*/
+  
+    .sobremi__info {
+        width: 20px;
+        height: 10px;
+            
+        
+    }
+  
+    .descripcion__sobre--mi {
+      font-size: 0.8rem;
+    }
+    .sobreMi {
+        display: flex;
+        
+        
+        height: 20vh;
+        align-items: center;
+        text-align: justify;
+        
+  }
+}
